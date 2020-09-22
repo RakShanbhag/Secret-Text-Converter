@@ -10,7 +10,10 @@ char *encode(char *plaintext, unsigned long key);
 char *decode(char *ciphertext, unsigned long key);
 #ifndef MARMOSET_TESTING
 int main() {
+	//For Testing
 	char str0[]{ "Hello world!" };
+	
+	//For Testing
 	char str1[]{ "A Elbereth Gilthoniel\nsilivren penna miriel\n""o menel aglar elenath!\nNa-chaered palan-diriel\n""o galadhremmin ennorath,\nFanuilos, le linnathon\n""nef aear, si nef aearon!" };
 	std::cout << "\"" << str0 << "\"" << std::endl;
 	char *ciphertext{ encode( str0, 51323 ) };
