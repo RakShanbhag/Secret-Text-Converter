@@ -36,21 +36,6 @@ int main() {
 	return 0;
 
 
-	/*char text[] { "Hello world!" };
-	char *ciphertext { encode(text, 51323) };
-	std::cout << "\"" << ciphertext << "\"" << std::endl;
-
-	char *plainy { decode(ciphertext, 51323) };
-
-
-		std::cout << "\"" << plainy << "\"" << std::endl;
-
-		delete[] ciphertext;
-				ciphertext = nullptr;
-	delete[] plainy;
-    plainy = nullptr;
-	return 0;
-	*/
 }
 #endif
 
